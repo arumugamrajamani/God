@@ -1,0 +1,9 @@
+<div class="jumbotron">
+    <div class="container">
+          <div class="card my-4" *ngFor="let posts of posts">
+             <a class="nav-link" routerLink="/posts/{{posts.id}}">
+                 <h3>{{posts.postName}}</h3>
+             </a>
+            </div>
+    </div>
+</div>
